@@ -1,0 +1,9 @@
+blibiotecas Front-End
+ 1 - "@lottiefiles/react-lottie-player": "^3.5.4",
+ 2 - "lottie-react": "^2.4.0",
+ 3 - "react": "^18.3.1",
+ 4 - "react-dom": "^18.3.1"
+
+
+ Com esse projeto conseguir aprender sobre novas blibiotecas front-End
+ - lottiefiles
