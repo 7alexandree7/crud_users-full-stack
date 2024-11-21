@@ -1,0 +1,25 @@
+1 - feature 
+- Criar componente de Loading ficticio, como uma pagina de carregamento para o conteudo principal do site
+
+Sequencia de passos
+- Importar o componente Loading
+- Importar o Componente App
+- Importar useState, useEffect e React from 'React'
+
+- Declarar o corpo da funcão a tipando como React.FC
+- Criar um estado de loading com valor booleano começando como True 
+
+- Montando um useEffect com um array de dependencia vazio, isso quer dizer q ele sera ativo / renderizado / executado
+assim que nosso componente for montado
+- Dentro do nosso useEffect, criamos uma variavel timer que vai ser atribuida a função setTimeout
+- Dentro da função setTimeout, definimos para false nosso estado de loading, significando que o tempo ja foi concluido
+e devemos exibir nosso app agr
+
+- Por fim para acabar com a parte do time, é feito uma limpeza no temporizador 
+      return () => clearTimeout(timer); // Limpeza do temporizador
+    }, []);
+
+- Por fim fazemos uma renderização condicional de componentes, mediante a a logica da função Root
+com o uso do return, é feita uma condição ternaria de compoenntes
+
+-----------------------------------------------------------------------------------------------------------------------------------------
