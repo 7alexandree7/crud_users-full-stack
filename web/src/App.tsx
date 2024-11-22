@@ -1,5 +1,6 @@
 import ChangeTitle from "./components/ChangeTitle/ChangeTitle";
 import ChangeFavicon from "./components/ChangeFavicon/ChangeFavicon";
+import './App.css'
 
 const App: React.FC = () => {
 
