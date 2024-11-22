@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -9,4 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e5e5f7;
+  background-size: 14px 14px;
+  background-image: repeating-linear-gradient(0deg, #444df73b, #444df73b 0.7000000000000001px, #e5e5f78c 0.4000000000000001px, #e5e5f791);
 }
