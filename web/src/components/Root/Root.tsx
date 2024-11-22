@@ -10,7 +10,7 @@ const Root: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false)
-    },2400)
+    },4000)
 
     return () => clearTimeout(timer)
   },[])

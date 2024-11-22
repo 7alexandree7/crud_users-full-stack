@@ -7,9 +7,10 @@ function Date() {
         display: "flex",
         justifyContent: "space-between",
         marginBottom: "1rem",
-        backgroundColor: '#fff',
+        backgroundColor: '#1A1A1A',
         padding: '14px 20px',
-        borderRadius: '12px'
+        borderRadius: '12px',
+        color: '#fff'
       }}
     >
       <p>

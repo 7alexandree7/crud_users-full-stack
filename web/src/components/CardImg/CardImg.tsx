@@ -1,27 +1,28 @@
-import animatedBook from "../../assets/Animation - 1732242102996.json";
+import animatedBook from "../../assets/Animation - t1732243590674.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
   function CardImg() {
   return (
     <div
       style={{
-        backgroundColor: "#fff",
         borderTopLeftRadius: "12px",
         borderBottomLeftRadius: "12px",
-        padding: "2rem",
-        height: "400px",
-        minWidth: "500px",
+        height: '40px',
+        width: '402px',
+        minWidth: "402px",
+        minHeight: '40px',
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         textAlign: "center",
+        boxSizing: 'border-box'
       }}
     >
       <Player
         autoplay
         loop
         src={animatedBook} // Importado do JSON
-        style={{ height: "400px", width: "400px" }} // Ajuste o tamanho conforme necessário
+        style={{ height: "100%", width: "100%" }} // Ajuste o tamanho conforme necessário
       />
     </div>
   );

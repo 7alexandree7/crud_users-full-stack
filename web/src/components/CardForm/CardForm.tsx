@@ -6,21 +6,24 @@ function CardForm() {
 
     <div
       style={{
-        backgroundColor: "#4A90E2",
+        backgroundColor: "#fff",
         padding: "2rem",
         display: "flex",
         flexDirection: "column",
         borderTopRightRadius: "12px",
         borderBottomRightRadius: "12px",
-        minHeight: "400px",
-        minWidth: "500px",
+        height: "400px",
+        width: '400px',
+        minHeight: "40px",
+        minWidth: "400px",
+        boxSizing: 'border-box'
       }}
     >
       <div className="headerCard" style={{ width: "100%" }}>
         <Date />
       </div>
 
-      <h1>Cadastrar Novo Usuário</h1>
+      <h2>Cadastrar Novo Usuário</h2>
     </div>
 
   );

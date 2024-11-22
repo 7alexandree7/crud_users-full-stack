@@ -1,5 +1,5 @@
 import React from "react";
-import animationLoading from "../../assets/Animation - 1732180142661.json";
+import animationLoading from "../../assets/Animation - x1732245525375.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 const Loading: React.FC = () => {
