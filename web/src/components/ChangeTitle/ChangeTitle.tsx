@@ -8,7 +8,7 @@ const ChangeTitle = () => {
         const interval: any = setInterval(() => {
             document.title = titles[index]
             index = (index + 1) % titles.length
-        },1000)
+        },300)
 
         return () => clearInterval(interval)
     },[])

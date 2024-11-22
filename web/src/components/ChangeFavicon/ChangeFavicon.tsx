@@ -19,7 +19,7 @@ function ChangeFavicon() {
       document.head.appendChild(link);
 
       index = (index + 1) % faviconList.length;
-    }, 1000);
+    }, 300);
 
     return () => clearInterval(interval);
   }, []);
