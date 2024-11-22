@@ -5,12 +5,10 @@ import { Player } from "@lottiefiles/react-lottie-player";
   return (
     <div
       style={{
-        borderTopLeftRadius: "12px",
-        borderBottomLeftRadius: "12px",
-        height: '40px',
-        width: '402px',
-        minWidth: "402px",
-        minHeight: '40px',
+        height: '400px',
+        width: '400px',
+        minWidth: "400px",
+        minHeight: '400px',
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -22,7 +20,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
         autoplay
         loop
         src={animatedBook} // Importado do JSON
-        style={{ height: "100%", width: "100%" }} // Ajuste o tamanho conforme necessário
+        style={{ height: "400px", width: "400px" }} // Ajuste o tamanho conforme necessário
       />
     </div>
   );
