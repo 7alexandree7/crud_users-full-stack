@@ -3,10 +3,10 @@ import { useEffect } from "react";
 function ChangeFavicon() {
   useEffect(() => {
     const faviconList = [
-      "../../../public/amigo.png",
-      "../../../public/civil-engineering.png",
-      "../../../public/funcionario.png",
-      "../../../public/user-interface.png",
+      "../../../public/111.png",
+      "../../../public/222.png",
+      "../../../public/333.png",
+      "../../../public/444.png",
     ];
     let index = 0;
 
