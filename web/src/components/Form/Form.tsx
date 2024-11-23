@@ -1,4 +1,4 @@
-import { User, Users2 } from "lucide-react";
+import {  Users2 } from "lucide-react";
 import "../../index.css";
 
 function Form() {
