@@ -1,0 +1,5 @@
+# Ignorar node_modules (dependências do Node.js)
+node_modules/
+
+# Ignorar arquivo de lock
+package-lock.json
