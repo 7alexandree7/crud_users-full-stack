@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.4",
+    "axios": "^1.7.8",
     "lottie-react": "^2.4.0",
     "lucide-react": "^0.460.0",
     "react": "^18.3.1",
