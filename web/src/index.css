@@ -26,7 +26,7 @@ label {
   cursor: pointer;
   border: none;
   outline: none;
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 0.6rem;
   border-radius: 12px;
   font-weight: 600;
   font-size: 12px;
@@ -38,3 +38,28 @@ label {
   color: red;
 }
 
+.form-content {
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: 400px;
+  width: 400px;
+  min-height: 400px;
+  min-width: 400px;
+  box-sizing: border-box;
+}
+
+
+.content-count-users {
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #1A1A1A;
+  color: #fff;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

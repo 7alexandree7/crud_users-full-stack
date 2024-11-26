@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
     "@lottiefiles/react-lottie-player": "^3.5.4",
+    "@mui/material": "^6.1.8",
     "axios": "^1.7.8",
     "lottie-react": "^2.4.0",
     "lucide-react": "^0.460.0",
