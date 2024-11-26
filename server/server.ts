@@ -1,5 +1,6 @@
 import express, { json, Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@prisma/client'
+import cors from 'cors'
 
 interface Idata {
     id: any,
@@ -10,7 +11,9 @@ interface Idata {
 
 const prisma = new PrismaClient()
 const app = express();
+
 app.use(express.json())
+app.use(cors())
 
 //---------------------------------------------------------------------------------------------------------------------
 app.post('/users', async (req: Request<{}, {}, Idata>, res: Response) => {
@@ -79,7 +82,8 @@ app.delete('/users/:id', async (req: Request<{ id: string | any }>, res: Respons
 
 app.get('/users', async (req: Request, res: Response) => {
     const users = await prisma.user.findMany()
-    res.status(200).json(users);
+    const usersCont = await prisma.user.count()
+    res.status(200).json({users, usersCont});
 })
 //---------------------------------------------------------------------------------------------------------------------
 

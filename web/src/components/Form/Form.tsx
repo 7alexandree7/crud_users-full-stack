@@ -1,7 +1,14 @@
 import {  Users2 } from "lucide-react";
 import "../../index.css";
+import { User } from "../../App";
 
-function Form() {
+interface FormProps {
+  users: User[]
+  usersCount: number
+}
+
+const Form: React.FC<FormProps> = ({users, usersCount}) => {
+
   return (
     <>
       <div
@@ -86,7 +93,7 @@ function Form() {
         }}
       >
         <h4>
-          Total de Usuários <span>(0)</span>
+          Total de Usuários <span>{usersCount}</span>
         </h4>
         <Users2 />
       </div>

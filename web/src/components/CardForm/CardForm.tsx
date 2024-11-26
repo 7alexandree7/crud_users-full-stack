@@ -1,7 +1,13 @@
 import Date from "../../components/Date/Date";
 import Form from "../Form/Form";
+import { User } from "../../App";
 
-function CardForm() {
+interface CardFormProps {
+  users: User[];
+  usersCount: number;
+}
+
+const CardForm: React.FC<CardFormProps> = ({ users, usersCount }) => {
   return (
     <div
       style={{
@@ -21,9 +27,9 @@ function CardForm() {
       <div className="headerCard" style={{ width: "100%" }}>
         <Date />
       </div>
-      <Form />
+      <Form users={users} usersCount={usersCount} />
     </div>
   );
-}
+};
 
 export default CardForm;

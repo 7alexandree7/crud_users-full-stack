@@ -13,9 +13,11 @@
   "dependencies": {
     "@prisma/client": "^5.22.0",
     "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
     "express": "^4.21.1"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/node": "^22.9.3",
     "prisma": "^5.22.0",
     "ts-node": "^10.9.2",
